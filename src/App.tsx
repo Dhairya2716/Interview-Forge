@@ -4,6 +4,12 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+function calculateTotal(price, quantity) {
+  return price * quantity;
+}
+
+console.log(calculateTotal(100, 2));
+
 function App() {
   const [count, setCount] = useState(0)
 
